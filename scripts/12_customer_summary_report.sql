@@ -33,15 +33,15 @@ WITH base_query AS(
 1) Base Query: Retrieves core columns from tables
 ---------------------------------------------------------------------------*/
 SELECT
-f.order_number,
-f.product_key,
-f.order_date,
-f.sales_amount,
-f.quantity,
-c.customer_key,
-c.customer_number,
-CONCAT(c.first_name, ' ', c.last_name) AS customer_name,
-DATEDIFF(year, c.birthdate, GETDATE()) age
+	f.order_number,
+	f.product_key,
+	f.order_date,
+	f.sales_amount,
+	f.quantity,
+	c.customer_key,
+	c.customer_number,
+	CONCAT(c.first_name, ' ', c.last_name) AS customer_name,
+	DATEDIFF(year, c.birthdate, GETDATE()) age
 FROM fact_sales f
 LEFT JOIN dim_customers c
 ON c.customer_key = f.customer_key
@@ -102,3 +102,4 @@ CASE WHEN lifespan = 0 THEN total_sales
      ELSE total_sales / lifespan
 END AS avg_monthly_spend
 FROM customer_aggregation
+
