@@ -19,7 +19,7 @@ The analysis includes business-focused SQL queries covering revenue trends, top-
 - Finding KPI for analysing performance
 
 
-## 🗄️ Data Model (Star Schema)
+## 🗄️ Data Model 
 
 The project follows a star schema design where:
 - fact_sales is the central fact table containing transaction-level data.
@@ -50,7 +50,7 @@ Each customer and product can have multiple sales records.
 - Views
 
 
-## 📊 Top Business Insights (concise)
+## 📊 Top Business Insights 
 
 Below are the  key insights from this project. Each insight shows the KPI(s) to report from the SQL script.
 
@@ -121,7 +121,7 @@ Size of New , Regular and VIP customer segments.
 
 1. Import the SQL file into MySQL.
 2. Execute database initialization script.
-3. Run the queries inside the /scripts folder.
+3. Run the queries inside the scripts folder.
 
 ---
 
