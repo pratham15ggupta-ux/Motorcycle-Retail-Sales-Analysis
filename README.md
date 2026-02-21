@@ -123,6 +123,12 @@ Size of New , Regular and VIP customer segments.
 
 ---
 
+##  Acknowledgment
+
+This project was developed as part of my SQL learning journey through the Data With Baraa course.  
+While the dataset framework and problem statements were inspired by the course material, the database design, SQL queries, and  insights were independently executed and documented by me for portfolio purposes.
+
+
 ##  About Me
 
 **Pratham Gupta**  
