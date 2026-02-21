@@ -1,11 +1,8 @@
 # Motorcycle Retail Sales Analysis (SQL Project)  
-
-Tool used for analysis 
-
-•	SQL (SSMS)   
+ 
 
 ## 📌 Project Overview
-This project analyzes motorcycle and motorcycle accessories sales data using SQL. 
+This project analyzes motorcycle and motorcycle accessories sales data using SQL (SSMS) . 
 The objective is to extract meaningful business insights related to customers, products, and sales performance.
 
 The analysis includes 13 business-focused SQL queries covering revenue trends, top-performing products, customer behavior, sales timeline ,year trends , and category performance.
@@ -62,5 +59,6 @@ The project follows a star schema design where:
 - One-to-many relationships connect dimension tables to the fact table.
 
 
-![Star Schema Model](<img width="933" height="376" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/1d2e6c65-e056-42e1-a685-93c10b45919c" />
+![Star Schema Model](<<img width="933" height="376" alt="Screenshot (42)" src="https://github.com/user-attachments/assets/31a66e29-26fd-4b78-aaa4-9112fdf90f19" />
+>
 )
