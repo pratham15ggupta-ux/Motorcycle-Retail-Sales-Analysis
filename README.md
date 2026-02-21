@@ -88,7 +88,6 @@ Time-based performance to identify peaks, seasonality and recent momentum.
 ---
 
 
----
 
 ###  Customer Segmentation Summary 
 Size of New , Regular and VIP customer segments.  
